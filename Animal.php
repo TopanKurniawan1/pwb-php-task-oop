@@ -6,8 +6,8 @@ class Animal {
 
     public function __construct($name) {
         $this->name = $name;
-        $this->legs = 4; // Default value
-        $this->cold_blooded = "no"; // Default value
+        $this->legs = 4; // default
+        $this->cold_blooded = "no"; // default
     }
 
     public function get_name() {
