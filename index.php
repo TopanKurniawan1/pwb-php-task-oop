@@ -3,7 +3,7 @@ require_once "Animal.php";
 require_once "Frog.php";
 require_once "Ape.php";
 
-echo "<pre>"; /
+echo "<pre>"; 
 $sheep = new Animal("shaun");
 echo "Name: " . $sheep->get_name() . "<br>";
 echo "Legs: " . $sheep->get_legs() . "<br>";
