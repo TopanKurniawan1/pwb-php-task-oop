@@ -18,7 +18,7 @@ echo "Legs: " . $kodok->get_legs() . "<br>";
 echo "Cold Blooded: " . $kodok->get_cold_blooded() . "<br>";
 echo "Jump: ";
 $kodok->jump();
-echo "<br><br>";
+echo "<br>";
 
 // Instance untuk Ape
 $sungokong = new Ape("kera sakti");
